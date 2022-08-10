@@ -41,12 +41,16 @@ html {
       font-size: 75%; } }
 
 body {
+  max-width: 100%;
   box-sizing: border-box;
   padding: 3rem;
   /* box-sizing is set to everything on the page */ }
   @media (max-width: 56.25em) {
     body {
       padding: 0; } }
+
+html {
+  overflow-x: hidden; }
 
 @keyframes moveInLeft {
   0% {
