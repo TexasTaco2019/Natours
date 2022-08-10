@@ -42,6 +42,7 @@ html {
 
 body {
   max-width: 100%;
+  overflow-x: hidden;
   box-sizing: border-box;
   padding: 3rem;
   /* box-sizing is set to everything on the page */ }
@@ -50,7 +51,8 @@ body {
       padding: 0; } }
 
 html {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  max-width: 100%; }
 
 @keyframes moveInLeft {
   0% {
@@ -763,6 +765,10 @@ body {
     .navigation__button {
       top: 4rem;
       right: 4rem; } }
+  @media (max-width: 24.375em) {
+    .navigation__button {
+      top: 4rem;
+      right: 8rem; } }
 
 .navigation__background {
   height: 6rem;
