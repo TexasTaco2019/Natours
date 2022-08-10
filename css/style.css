@@ -110,6 +110,10 @@ body {
       .heading-primary--main {
         letter-spacing: 1rem;
         font-family: 5rem; } }
+    @media (max-width: 24.375em) {
+      .heading-primary--main {
+        letter-spacing: 0.75rem;
+        font-family: 4rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -767,8 +771,8 @@ body {
       right: 4rem; } }
   @media (max-width: 24.375em) {
     .navigation__button {
-      top: 4rem;
-      right: 8rem; } }
+      top: 3rem;
+      right: 3.5rem; } }
 
 .navigation__background {
   height: 6rem;
